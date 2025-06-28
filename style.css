@@ -1,0 +1,936 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Abril Fatface";
+}
+
+main {
+  width: 100%;
+}
+/* nav bar start */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Abril Fatface";
+}
+
+.offcanvas.offcanvas-end {
+  width: 100% !important;
+  height: 100vh !important;
+  max-width: 100% !important;
+ 
+}
+.btn-close{
+  
+
+  font-size: 40px;
+  
+}
+
+.offcanvas .offcanvas-body {
+  height: 100% !important;
+  overflow-y: auto !important;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link{
+  font-size: 35px;
+  
+  color: black;
+}
+.offcanvas-body{
+  margin-top: 80px;
+  background-color: #f8f9fa;
+}
+.navimag{
+ height: 100vh;
+ background-size: cover;
+ 
+ 
+ /* position: relative; */
+}
+.navimag background-image{
+    opacity: 0.35;
+
+}
+.nav-link{
+    font-size: large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.offcanvas-body .nav-link a{
+    font-size: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+ position: relative;
+ 
+}
+.navbar{
+  position: absolute;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  top: 30px;
+
+}
+.navbar-toggler{
+    font-size: 40px;
+ 
+}
+.navbar-brand{
+  font-family:Bernard MT Condensed ;
+  font-size: 50px;
+  margin-left: 40px;
+}
+  
+/* end */
+.page-1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.page-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.head {
+  position: absolute;
+  top: 25px;
+  left: 7%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2rem;
+  z-index: 10;
+  text-shadow: 2px 2px 5px black;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  /* z-index: 5; */
+}
+.container a{
+  color: white;
+  text-decoration: unset;
+}
+
+.container h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+.container p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 3px black;
+}
+.container>#mon{
+ 
+  background-color:transparent;
+  color: #fff;
+  border:1px solid white;
+  padding: 8px 6px;
+
+
+}
+
+
+
+.container #mon:hover {
+  background-color:wheat;
+}
+.page-2 {
+  padding: 4rem 2rem;
+  background-color:whitesmoke;
+}
+
+#second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Optional: for responsiveness */
+}
+
+.second-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border: 10px;
+}
+
+.second-text {
+  max-width: 600px;
+}
+
+.second-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.second-text p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+}
+.second-text>a{
+  font-size: 2rem;
+  color: cyan;
+  margin-top: 20px;
+}
+/* Page 3 Main Section */
+.page-3 {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+/* Heading and Paragraph */
+#third h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#third p {
+  font-size: 1.1rem;
+  width: 70%;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Common Style for Icon Rows */
+.fourth, .five {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+/* Individual Icon Card Styling */
+.fourth div,
+.five div {
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.fourth div:hover,
+.five div:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon Image Styling */
+.fourth div img,
+.five div img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Icon Text */
+.fourth div h2,
+.five div h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.fourth div p,
+.five div p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+/* Page 4 Section */
+.page4 {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Container for text */
+#pagal {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.page4 h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+  line-height: 1.3;
+}
+
+/* Paragraph */
+.page4 p {
+  font-family:sans-serif;
+  width: 80%;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+  color: #555;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* center the image horizontally */
+  align-items: center;     /* center the image vertically */
+  overflow: hidden;
+}
+
+/* Slide Image */
+.slide {
+  max-width: 110%;
+  max-height: 110%;
+  object-fit: cover;
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* Arrow Buttons */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding: 17px 27px;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 100;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.prev {
+  left: 5px; /* move arrow button outside the image */
+}
+
+.next {
+  right: 5px; /* move arrow button outside the image */
+}
+/* Ensure full height layout */
+/* Page Container */
+.page5 {
+  width: 100%;
+  padding: 4rem 2rem;
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Blog Intro */
+#bloge h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+#bloge p {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Blog Cards Container */
+.irfan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Individual Card */
+.fist,
+.second,
+.three {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.fist:hover,
+.second:hover,
+.three:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.fist img,
+.second img,
+.three img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Text Inside Cards */
+.first1,
+.second1,
+.three1 {
+  padding: 1rem;
+}
+
+.meta-spot {
+  font-size: 0.9rem;
+  color: #999;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.first1 h1,
+.second1 h1,
+.three1 h1 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.first1 p,
+.second1 p,
+.three1 p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+/* Happy Customers Section */
+.page6 {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.page6 h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.person {
+  background:none;
+  padding: 2rem;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+}
+
+.person:hover {
+  transform: translateY(-5px);
+}
+
+.person img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.person p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.person span {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+  font-style:monospace;
+  
+}
+.page7{ /* changed from 110% to 100% */
+  width: 100%;
+  padding: 4rem 2rem;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lastscond h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.lastscond p {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.lastirfan {
+  display: flex;
+  flex-wrap: nowrap; /* <- prevent wrap */
+  gap: 2rem;
+  overflow-x: auto; /* optional: for smaller screens */
+}
+
+/* Destination Card Styles */
+.last1,
+.last2,
+.last3,
+.last4 {
+  background-color: none;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 1rem;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.last1:hover,
+.last2:hover,
+.last3:hover,
+.last4:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.last1 img,
+.last2 img,
+.last3 img,
+.last4 img {
+  width: 90%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: none;
+}
+
+/* Heading */
+.last1 h2,
+.last2 h2,
+.last3 h2,
+.last4 h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 0.8rem;
+}
+.row-star-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* makes review go to end */
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.star i {
+  color: #f4c150;
+  font-size: 1.2rem;
+}
+
+.review span {
+  font-size: 0.95rem;
+  color: #555;
+}
+/* Footer Main Style */
+/* ======= Footer ======= */
+
+#p8 {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 100px 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+#bxp8 {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    padding-bottom: 40px;
+
+}
+
+#b81, #b82, #b83, #b84 {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+#p8 h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#p8 h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#p8 h2:hover {
+    color: #fff;
+}
+
+#p8 p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0 15px;
+}
+
+#b84 h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+
+#b84 h2 i {
+    color: #fff;
+    cursor: pointer;
+}
+
+#bxend {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    text-align: center;
+     /* justify-content: center; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#bxend p {
+  text-align: end; /* This centers the text */
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+#bxend h4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#bxend i {
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#bxend i:hover {
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #bxp8 {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    #b81, #b82, #b83, #b84 {
+        min-width: 100%;
+    }
+    
+    #bxend h4 {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #p8 {
+        padding: 40px 15px 20px;
+    }
+    
+    #bxend p {
+        font-size: 12px;
+    }
+    
+    #bxend i {
+        font-size: 18px;
+    }
+} 
+
+
+/* vvvvvvvvvvvvvvvvvvv */
+/* Existing CSS remains the same until the end */
+
+/* ======== Responsive Styles ======== */
+@media (max-width: 1200px) {
+  .container h1 {
+    font-size: 4rem;
+  }
+  
+  #second {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .second-text {
+    text-align: center;
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container h1 {
+    font-size: 3.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 40px;
+  }
+  
+  .page4 h1 {
+    font-size: 2.5rem;
+  }
+  
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .person {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 3rem;
+  }
+  
+  .container p {
+    font-size: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  
+  .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 28px;
+  }
+  
+  .second-text h1 {
+    font-size: 2rem;
+  }
+  
+  #third h1 {
+    font-size: 2rem;
+  }
+  
+  #third p {
+    width: 90%;
+  }
+  
+  .page4 h1 {
+    font-size: 2rem;
+  }
+  
+  .page4 p {
+    width: 90%;
+  }
+  
+  .page5 #bloge h1 {
+    font-size: 2.5rem;
+  }
+  
+  .page6 h1 {
+    font-size: 2.5rem;
+  }
+  
+  .page7 .lastscond h1 {
+    font-size: 2.5rem;
+  }
+  
+  #bxp8 {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  #b81, #b82, #b83, #b84 {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container h1 {
+    font-size: 2.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+  }
+  
+  .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 24px;
+  }
+  
+  .btn-close {
+    font-size: 30px;
+  }
+  
+  .navbar-toggler {
+    font-size: 30px;
+  }
+  
+  .second-text h1 {
+    font-size: 1.8rem;
+  }
+  
+  #third h1 {
+    font-size: 1.8rem;
+  }
+  
+  .fourth, .five {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fourth div, .five div {
+    max-width: 100%;
+  }
+  
+  .page5 #bloge h1 {
+    font-size: 2rem;
+  }
+  
+  .irfan {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fist, .second, .three {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .page6 h1 {
+    font-size: 2rem;
+  }
+  
+  .page7 .lastscond h1 {
+    font-size: 2rem;
+  }
+  
+  .lastirfan {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .last1, .last2, .last3, .last4 {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  #bxend h4 {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 25px;
+  }
+  
+  .container #mon {
+    padding: 5px 5px;
+    font-size: 0.9rem;
+  }
+  
+  #bxend p {
+    font-size: 12px;
+  }
+  
+  #bxend i {
+    font-size: 18px;
+  }
+}
+
+/* Slider Responsive Adjustments */
+@media (max-width: 768px) {
+  .slider {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider {
+    height: 50vh;
+  }
+  
+  .prev, .next {
+    padding: 12px 20px;
+    font-size: 1.5rem;
+  }
+}
